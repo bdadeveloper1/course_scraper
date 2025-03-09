@@ -1,0 +1,11 @@
+/* Hide the default swirl <svg> entirely: */
+header .MuiAvatar-root svg {
+  display: none !important;
+}
+
+/* Then inject your own logo as a background or pseudo-element: */
+header .MuiAvatar-root {
+  width: 32px !important;
+  height: 32px !important;
+  background: url("/public/mylogo.png") center/contain no-repeat !important;
+}

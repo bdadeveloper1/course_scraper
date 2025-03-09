@@ -1,0 +1,31 @@
+[project]
+enable_telemetry = true
+user_env = []
+session_timeout = 3600
+user_session_timeout = 1296000
+cache = false
+allow_origins = ["*"]
+
+[features]
+unsafe_allow_html = false
+latex = false
+auto_tag_thread = true
+edit_message = true
+
+[features.spontaneous_file_upload]
+    enabled = true
+    accept = ["*/*"]
+    max_files = 20
+    max_size_mb = 500
+
+[features.audio]
+    sample_rate = 24000
+
+[UI]
+name = "Scrapers Assistant"
+custom_meta_image_url = "/public/logo_dark.png"
+custom_css = "/public/custom.css"
+custom_js = "/public/custom.js"
+
+[meta]
+generated_by = "2.1.0"
