@@ -52,10 +52,10 @@ edit_message = true
     sample_rate = 24000
 
 [UI]
-name = "Course Learning Assistant"
+name = "CiviHire - Your Path to Government Jobs"
 custom_css = "/public/custom.css"
 custom_js = "/public/custom.js"
-custom_meta_image_url = "/public/logo_dark.png"
+custom_meta_image_url = "/public/civihirelogo.jpg"
 
 
 [meta]

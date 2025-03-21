@@ -1,14 +1,28 @@
-# Welcome to Chainlit! 🚀🤖
+# 👋 Welcome to CiviHire by Brandon — The AI-Powered Public Sector Job Designer 🏛️✨
 
-Hi there, Developer! 👋 We're excited to have you on board. Chainlit is a powerful tool designed to help you prototype, debug and share applications built on top of LLMs.
+CiviHire helps **government HR professionals** modernize and rewrite job descriptions using AI — making it easier to attract top-tier, future-ready candidates to public service roles.
 
-## Useful Links 🔗
+## 🚀 What You Can Do:
 
-- **Documentation:** Get started with our comprehensive [Chainlit Documentation](https://docs.chainlit.io) 📚
-- **Discord Community:** Join our friendly [Chainlit Discord](https://discord.gg/k73SQ3FyUh) to ask questions, share your projects, and connect with other developers! 💬
+- ✍️ **Upload an existing job description** (PDF format)
+- 🎯 **Describe your hiring goals and intentions** for how you'd like to update the role
+- 🛠️ **Get a rewritten, modernized job description** using GPT-4
+- 🧠 **See similar job listings** based on our synthetic HR dataset
+- 📈 **Generate a real-time growth chart** of how this job title is trending
+- 💡 Coming soon: Web scraping from USAJobs and more real-time labor data
 
-We can't wait to see what you create with Chainlit! Happy coding! 💻😊
+## 🔁 Example Workflow
 
-## Welcome screen
+1. Say: `"We're hiring a data engineer for wildfire response in San Diego."`
+2. Upload a resume-like job description
+3. Add intentions: `"Make it more modern and emphasize remote eligibility."`
+4. Ask: `"Show me a chart of job growth for data engineers"`
 
-To modify the welcome screen, edit the `chainlit.md` file at the root of your project. If you do not want a welcome screen, just leave this file empty.
+## 🧠 Purpose-Built for Government HR
+
+Public servants deserve the best tools. This app was designed with insights from the real struggles of hiring managers in city, state, and federal agencies.
+
+---
+
+🛠 Built by **Brandon** as part of the CiviHire AI toolkit  
+🌐 [Holly](https://hollygov.com) inspired — built to enhance the future of public service.

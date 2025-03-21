@@ -1,21 +1,99 @@
-/* Hide any unwanted UI elements */
+/* =============================== */
+/* CiviHire Custom Chainlit Theme  */
+/* =============================== */
+
+/* Remove Chainlit Watermark */
 a.watermark {
   display: none !important;
 }
 
-/* Adjust the UI to remove empty spaces */
+/* Optimize Layout - Remove Empty Spaces */
 #chainlit-copilot {
   margin-bottom: 0px !important;
 }
 
-/* Customize Button Appearance */
+/* =============================== */
+/* 🔹 Buttons - Warm, Friendly Look */
+/* =============================== */
+
 button {
-  background-color: #ff0077 !important;
-  border-radius: 5px;
+  background-color: #FF8040 !important;  /* Warm orange (main branding color) */
+  border-radius: 8px;                    /* Slightly rounded for a modern feel */
+  border: 1px solid #D9A56E !important;   /* Subtle gold outline */
   color: white !important;
+  font-weight: bold;
+  padding: 10px 15px;
+  transition: background-color 0.3s ease-in-out;
 }
 
-/* Hide unwanted UI elements */
+/* Button Hover Effects */
+button:hover {
+  background-color: #E06C30 !important;  /* Slightly darker orange for hover effect */
+}
+
+/* Secondary Buttons */
+button.secondary {
+  background-color: #005F73 !important;  /* Deep teal (balancing warm colors) */
+  border-color: #003B4D !important;
+}
+
+/* =============================== */
+/* 🔹 Input Fields - Clean & Readable */
+/* =============================== */
+
+input, textarea {
+  background-color: #FFFFFF !important; /* Keep inputs clear and crisp */
+  border: 1px solid #D9A56E !important; /* Light gold border */
+  color: #333333 !important;           /* Dark gray text for readability */
+  border-radius: 5px;
+  padding: 8px;
+}
+
+/* Placeholder Text */
+input::placeholder, textarea::placeholder {
+  color: #777777 !important; /* Softer gray for placeholders */
+}
+
+/* =============================== */
+/* 🔹 Background & Layout Adjustments */
+/* =============================== */
+
+body {
+  background-color: #F9F5EC !important; /* Light cream background */
+  color: #333333 !important;           /* Dark gray for text */
+  font-family: "Poppins", sans-serif;
+}
+
+/* Main Chat Area */
+#chainlit-chat {
+  background-color: #FFFFFF !important; /* Keep chat area clean */
+  border-radius: 12px;
+  padding: 15px;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1); /* Light shadow for depth */
+}
+
+/* =============================== */
+/* 🔹 Miscellaneous Fixes */
+/* =============================== */
+
+/* Hide "New Chat" Button */
 [data-testid="components.molecules.newChatButton.newChat"] {
   display: none !important;
+}
+
+/* Style Headers */
+h1, h2, h3 {
+  color: #FF8040 !important; /* Warm orange for key headings */
+}
+
+/* Improve Scrollbar Appearance */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-thumb {
+  background: #D9A56E; /* Gold scrollbar */
+  border-radius: 10px;
+}
+::-webkit-scrollbar-track {
+  background: #F9F5EC; /* Light background */
 }
